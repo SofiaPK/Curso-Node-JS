@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+}
+div{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(90, 199, 207);
+}
+/*El borde siempre a los elementos de bloque*/

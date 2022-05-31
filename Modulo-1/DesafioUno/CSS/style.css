@@ -1,0 +1,47 @@
+/*Desafio 1 CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+h1, h3, h4{
+    font-family:'MuseoModerno', cursive;
+}
+h2, p, ul{
+    font-family: 'Asap', sans-serif;
+}
+h1, h3, h4, ul{
+    font-weight: 700;
+}
+h2, p{
+    font-weight: 400;
+}
+p strong{
+    font-weight: 700;  
+}
+div{
+    width: fit-content;
+    background-color:  #edf7ff;
+}
+h1, h2, h3{
+    color: #0a2ff1;
+}
+h1{
+    font-size: 177px;
+}
+h2{
+    font-size: 52px;
+}
+p{
+    font-size: 33px;
+}
+ul{
+    font-size: 33px;
+    color: #04146c;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 198px;
+    color: #8a9af1;
+}
+h1, h3, ul, h4, h2{
+    margin: 0;
+}

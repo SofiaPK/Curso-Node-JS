@@ -1,0 +1,40 @@
+/*Desafio 2 CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+p, h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h3, h2, h4{
+    background-color: black;
+    color: white;
+}
+div{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+p{
+    background-color: white;
+    color: black;
+    font-size: 48px;
+}
+p strong{
+    font-weight:900; 
+    font-size: 60px"
+}
+h3{
+    font-size: 66px;
+}
+h2{
+    font-size: 198px;
+}
+h1{
+    font-size: 217px;
+}   
+h4{
+    font-size: 58px;
+}

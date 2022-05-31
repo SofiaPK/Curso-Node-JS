@@ -1,0 +1,45 @@
+/*Desafio 3 CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+h3, h1, h2, span, strong{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900;
+}
+h4, p{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+div{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+h4, p, h1{
+    padding: 15px;
+}
+h3, h4, p{
+    color: blue;
+    font-size: 60px;
+}
+h1, strong{
+    color: white;
+    background-color: black;
+}
+h1{
+    font-size: 197px;
+}
+h2{
+    font-size: 217px;
+}
+h4{
+    font-size: 48px;
+}
+strong{
+    font-size: 60px;
+}
