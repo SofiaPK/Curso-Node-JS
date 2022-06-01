@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    background-color: rgb(67, 180, 255);
+    font-size: 12px;
+    width: fit-content;
+    padding: 5px;
+}
+h2 a:link{
+    color: black;
+    text-decoration: none;
+}
+h2 a:hover{
+    color: red;
+}
+p, ul{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+ul li{
+    list-style-type: none;
+}
+div{
+    border: 1px solid grey;
+    width: 150px;
+    text-align:center;
+}
+img{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+ul{
+    padding: 0;
+}
+
+
+/* Ejercicio en clase
+div{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(90, 199, 207);
+}
+El borde siempre a los elementos de bloque*/
