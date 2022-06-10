@@ -1,50 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-h1, h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+body{
+    color: darkcyan;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #ffcdda;
+    margin: 50px;
 }
-h1{
-    font-size: 40px;
+nav h1,
+footer h1{
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 33px;
 }
-h2{
-    background-color: rgb(67, 180, 255);
-    font-size: 12px;
+header h1{
+    font-size: 41px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 51px;
+}
+main{
+    font-size: 21px;
+}
+header h1, h4{
+    color: aliceblue;
+    background-color: rgb(37, 155, 163);
     width: fit-content;
-    padding: 5px;
 }
-h2 a:link{
+h1,h2,h3{
+    color: black;
+}
+h2,h3{
+    font-size: 20px;
+    background-color: rgb(255, 231, 234);
+    width: fit-content;
+}
+footer{
+    background-color: rgb(255, 231, 234);
+    width: fit-content;
+}
+footer h1 a:link{
     color: black;
     text-decoration: none;
 }
-h2 a:hover{
-    color: red;
-}
-p, ul{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-ul li{
-    list-style-type: none;
-}
-div{
-    border: 1px solid grey;
-    width: 150px;
-    text-align:center;
-}
-img{
-    width: 50px;
-    height: auto;
-    margin: 10px;
+footer h1 a:hover{
+    color: crimson;
 }
 ul{
-    padding: 0;
+    color: black;
 }
-
-
-/* Ejercicio en clase
-div{
-    text-align: center;
-    margin: 0 auto;
-    border: 1px solid rgb(90, 199, 207);
+ul li a{
+    color: dimgrey;
+    text-decoration: none;
 }
-El borde siempre a los elementos de bloque*/
