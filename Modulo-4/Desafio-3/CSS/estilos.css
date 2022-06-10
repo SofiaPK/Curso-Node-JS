@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+body, button{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 59px;
+}
+h1, h2{
+    font-weight: 700;
+}
+h2, p{
+    font-size: 25px;
+}
+p button{
+    font-weight: 400;
+}
+h1, h2{
+    color: #0a2ff1;
+}
+h2{
+    margin-bottom: 0;
+}
+.segundo-parrafo{
+    margin-top: 5px;
+}
+.imagen-header{
+    background-image: url("/Modulo-4/Desafio-3/imagenes/M4-Desafío3_img-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.acaestanlostextos{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+p{
+    color:black;
+}
+#parrafo{
+    font-size: 24px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.imagen-celu{
+    margin-left: 0;
+}
+button{
+    background-color: #0a2ff1;
+    font-size: 27px;
+    width: 300px;
+    height: 50;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color: white;
+}
+footer{
+    background-color: #15163d;
+    width: 100%;
+    height: 10px;
+}
