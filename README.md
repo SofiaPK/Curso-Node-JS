@@ -11,9 +11,9 @@ Acá voy a ir subiendo los **ejercicios** y **desafios** del curso dictado por [
 * iv Módulo 4: FTP, PHP, Selectores, Class, Id.
   * Contiene: Consignas, Ejercicio-3, Desafio-1 y Desafio-3.
 * v Módulo 5: Flex, Multimedia y Tablas.
-  * Contiene: ...
+  * Contiene: Consignas, Clase-Cinco (ejercicio hecho en clase), Ejercicio-Web, Desafio (realice el desafio 1, 2 y 3 en un mismo archivo)
 * vi Módulo 6: Introducción al mundo del CSS.
-  * Contiene: ...
+  * Contiene: Ejercicios-en-clase.
 * vii Módulo 7: Maquetando.
   * Contiene: ...
 * viii Módulo 8: Flotado y trabajo con grillas.
