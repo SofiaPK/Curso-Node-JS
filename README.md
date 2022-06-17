@@ -13,9 +13,9 @@ Acá voy a ir subiendo los **ejercicios** y **desafios** del curso dictado por [
 * v Módulo 5: Flex, Multimedia y Tablas.
   * Contiene: Consignas, Clase-Cinco (ejercicio hecho en clase), Ejercicio-Web, Desafio (realice el desafio 1, 2 y 3 en un mismo archivo)
 * vi Módulo 6: Introducción al mundo del CSS.
-  * Contiene: Ejercicios-en-clase.
+  * Contiene: Ejercicios-en-clase, Consignas, Desafio-1, Desafio-2 y Desafio-3.
 * vii Módulo 7: Maquetando.
-  * Contiene: ...
+  * Contiene: Ejercicios-en-clase.
 * viii Módulo 8: Flotado y trabajo con grillas.
   * Contiene: ...
 * ix Módulo 9: Position y Pseudo Clases.
