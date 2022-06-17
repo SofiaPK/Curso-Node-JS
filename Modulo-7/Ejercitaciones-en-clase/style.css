@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*
+    Cambiar color:
+    background-color: cornflowerblue;
+    Colocar una imagen:
+    background-image: url(perro-y-gato.png);
+    Repeat img en eje horizontal:
+    background-repeat: repeat-x;
+    Repeat img en el eje vertical:
+    background-repeat: repeat-y;
+    No repita la img;
+    background-repeat: no-repeat;
+    Posisionamiento:
+    background-position: right-top;
+    img fija:
+    background-attachment: fixed;
+
+ RESUMIR TODAS LAS PROPIEDADES -- SHORTHAND
+*/
+background: rgb(170, 125, 170) url(gato.png) repeat right top scroll;
+background-size: 200px;
+}
+p, h1{
+    font-size: 25px;
+    color: greenyellow;
+}

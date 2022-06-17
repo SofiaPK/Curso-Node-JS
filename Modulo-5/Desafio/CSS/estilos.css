@@ -116,22 +116,25 @@ footer{
 }
 #logo-blanco{
     width: 10%;
-    margin-left: 50px;
+    margin-left: 120px;
 }
-#primera-seccion{
-    width: 50%;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 50px;
+section{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 150px;
 }
-#segunda-seccion{
-    width: 50%;
-}
+/*
 .secciones{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-#cohete{
-    width: 700px;
+
+}*/
+body{
+    background-image: url("../imagenes/M5-Desafio3-img.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 45%;
+    background-position-x: 900px;
+    background-position-y: 93%;
 }

@@ -73,7 +73,7 @@
     "nav footer footer footer footer"
     ;
     /*especificamos espacios*/
-    /*especificamos areas vacias con "empty"*/
+    /*especificamos areas vacias con "empty", hasta 3 y + de 3(.)*/
     row-gap: 15px; 
     column-gap: 15px;
    /* este atributo grid-column-gap quedó obsoleto*/
