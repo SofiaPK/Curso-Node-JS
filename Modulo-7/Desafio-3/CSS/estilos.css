@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+h2, p{
+    font: 400 40px 'Mulish', sans-serif;
+}
+h1{
+    font: 900 80px 'Mulish', sans-serif;
+}
+h1, h2{
+    color: #0a2ff1;
+}
+h1{
+    margin: 5px 0;
+}
+h2{
+    margin: 0;
+}
+strong, button{
+    font: 700 29px 'Mulish', sans-serif;
+}
+p, strong{
+    font-size: 27px;   
+    color: #04146c; 
+}
+button{
+    width: 400px;
+    height: 70px;
+    color: white;
+    background-color: #0a2ff1;
+    border: none;
+}
+div{
+    width: 100%;
+}
+.encolumnar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div img{
+    width: 40%;
+    border: 5px solid #0a2ff1;
+    margin-left: 50px;
+}
+body{
+    background-image: url("../imagenes/D2-E3-pattern.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 95% 50%;
+}

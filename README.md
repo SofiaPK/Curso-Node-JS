@@ -15,9 +15,9 @@ Acá voy a ir subiendo los **ejercicios** y **desafios** del curso dictado por [
 * vi Módulo 6: Introducción al mundo del CSS.
   * Contiene: Ejercicios-en-clase, Consignas, Desafio-1, Desafio-2 y Desafio-3.
 * vii Módulo 7: Maquetando.
-  * Contiene: Ejercicios-en-clase.
+  * Contiene: Ejercicios-en-clase, Consignas, Desafio-1, Desafio-2 y Desafio-3.
 * viii Módulo 8: Flotado y trabajo con grillas.
-  * Contiene: ...
+  * Contiene: Consignas, Desafio-1 y Desafio-2.
 * ix Módulo 9: Position y Pseudo Clases.
   * Contiene: ... 
 * x Módulo 10: Gradientes, Vinculación con Bootstrap y selectores avanzados.
