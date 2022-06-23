@@ -1,0 +1,76 @@
+:root{
+    /*es una pseudoclase, afectamos en cascada al menu raiz de nuestro árbol u hoja de estilo*/
+    --body-bg-color: rgb(187, 150, 223); /*variables global scope*/
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--body-bg-color); /*Local scope de las variables. bg=background*/
+}
+/* PRIMER EJERCITACION
+h1{
+    color: darkmagenta;
+    font: bold 55px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    border: 10px solid coral;
+    width: 100%;
+    background-color: cornsilk;
+} 
+div es un elemento en bloque que ocupa todo el bloque del body
+img{
+    border: 10px solid rgba(106, 106, 218, 0.767);
+    display: block;
+    filter: drop-shadow(25px 36px 60px rgba(116, 238, 171, 0.678)); Aplica un efecto de sombra a la imagen
+    filter: blur(1px); Desenfoque Gussiano
+    filter: hue-rotate(20deg);
+    filter: invert(75%); Para invertir colores
+    filter: grayscale(100%);
+    filter: opacity(85%);
+    filter: saturate(20%);
+    filter: sepia(60%);
+    filter: contrast(-23%) brightness(55%);
+}
+*/
+
+/* Segunda ejercitacion FLEX
+.box00{
+    background-color: rgb(237, 150, 100);
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.box01{
+    background-color: rgb(100, 237, 162);
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.box02{
+    background-color: rgb(237, 205, 100);
+    height: 200px;
+    width: 200px;
+    float: right;
+    /*clear: both; con esto se limpia la propiedad de float
+}*/
+/*TERCER EJERCITACION: OVERFLOW*/
+.contenedor{
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: navajowhite;
+    width: 500px;
+    height: 500px;
+    color: brown;
+    border-radius: 50px;
+    /*overflow: auto;*/
+    overflow-x: scroll;
+    overflow-y: hidden; 
+}
+.box1, .box2{
+    padding: 15px;
+    background-color: aquamarine;
+}
+p{
+    font-size: 25px;
+}

@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #040714;
+}
+@font-face{
+    font-family: 'Avenir';
+    src: url("AvenirLTStd-Roman.otf");
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Avenir';
+    src: url("AvenirLTStd-Roman.otf");
+    font-weight: 1300;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 36px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+nav a img{
+    width: 80px;
+    height: 80px;
+}
+button{
+    font-size: 18px;
+    font-family: 'Avenir';
+    font-weight: 400;
+    height: 50px;
+    margin: 5px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#primer-boton{
+    background-color: #0063E5;
+    border: none;
+    color: #F9F9F9;
+}
+#primer-boton:hover{
+    background-color: #006EF5;
+}
+#segundo-boton{
+    background-color: #040714;
+    color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+}
+#segundo-boton:hover{
+    background-color: #F9F9F9;
+    color: #000000;
+}
+h2{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 1300;
+    color: #F9F9F9;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+p{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #C0C0C0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main section{
+    width: 50%;
+    padding: 86px;
+}
+main img{
+    height: auto;
+    width: 100%;
+    display: block;
+}
