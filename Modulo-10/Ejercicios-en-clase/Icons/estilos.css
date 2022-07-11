@@ -1,0 +1,85 @@
+/*JERARQUIA
+p, h2{
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+}
+p, h1{
+    color: blue;
+}
+h1{
+    color: blue !important;
+}
+.enunciado{
+    color: red;
+}
+#titulo{
+    color: yellow;
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey; 
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    height: 100vh;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    outline: 3px solid white;
+    transition-property: outline-offset, outline-color, background-color; /*Damos prioridades a los efectos de transicion*/
+    transition-duration: .25s;
+}
+icon:hover{
+    outline-offset: 2px;
+}
+.icon:hover i{
+    animation: sacudir 1s;
+}
+.icon--instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%,
+    yellow 0%, rgb(255, 230, 0) 5%, orange 45%, violet 60%, rgb(107, 107, 255) 90%);
+    outline-color: white;
+}
+.icon--twitter:hover{
+background-color: rgb(0, 217, 255);
+outline-color: rgb(0, 217, 255);
+}
+.icon--linkedin:hover{
+    background-image: radial-gradient(circle at 30% 107%,
+    green 0%, green 5%, rgb(122, 212, 122) 45%, rgb(248, 118, 144) 60%, rgb(255, 0, 157) 90%);
+    outline-color: white;
+}
+.icon--github:hover{
+    background-color: rgb(195, 0, 255);
+    outline-color: rgb(195, 0, 255);
+}
+/*Con keyframes controlamos los pasos intermedios en nuestra secuencia
+de animacion*/
+@keyframes sacudir{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+/*favicon son los iconos que se encuentran en la pestaña a la izquierda del title*/
