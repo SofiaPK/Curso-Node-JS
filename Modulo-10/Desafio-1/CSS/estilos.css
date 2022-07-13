@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans+Caption&family=PT+Sans:wght@400;700&display=swap');
+nav{
+    display: flex;
+}
+nav a{
+    font-family: 'PT Mono', monospace;
+    font-weight: 400;
+    font-size: 32px;
+}
+h1{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 80px;
+    color: #0a2ff1;
+}
+p, h2, li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.action{
+    color: #0a2ff1;
+    margin-left: auto;
+}
+h2, .action{
+    font-weight: 700;
+}
+a, p, h2, ul{
+    color: #04146c;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a::after{
+    content:'/';
+}
+.action::after{
+    content:" ";
+}
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 0;
+    padding: 0;
+}
+ul:first-of-type li:nth-child(1){
+    list-style-image: url(../imagenes/vector.svg);
+}
+ul:first-of-type li:nth-child(2){
+    list-style-image: url(../imagenes/foto.svg);
+}
+ul:nth-of-type(2) li:nth-child(1){ 
+    list-style-image: url(../imagenes/licencia.svg);
+}
+ul:nth-of-type(2) li:nth-child(2){
+    list-style-image: url(../imagenes/precio.svg);
+
+}
+/*
+img{
+    vertical-align: middle;
+}
+img{
+    width: 30px;
+}
+*/

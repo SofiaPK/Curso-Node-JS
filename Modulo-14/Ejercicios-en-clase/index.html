@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/codigo.js"></script>
+    <title>Clase 14</title>
+</head>
+<body>
+    <!--
+        getElementById:
+        es un metodo que nos permite seleccionar un elemento de nuestro documento HTML por medio
+        de un valor del atributo ID que se le haya asignado.
+    -->
+    <h1 id="informacion">Hola get element by ID</h1>
+    <button onclick="cambiarColor('blue')">AZUL</button>
+    <button onclick="cambiarColor('red')">ROJO</button>
+
+    <!--
+        onclick:
+        es un evento que nos permite ejecutar una funcion cuando le demos click a ese elemento
+    -->
+    <br>
+    <br>
+    <!--
+    <input type="button" value="sumar" onclick="sumar(2,2)">
+
+    <input type="text" onchange="alert(`haz hecho un cambio en la caja`)">
+
+    <input type="text" onblur="alert(`haz dejado de hacer foco en la caja`)">
+
+    <input type="text" onfocus="alert(`haz hecho foco en la caja`)">
+
+    <input type="text" onkeypress="alert(`haz presionado una tecla dentro de la caja`)">
+    -->
+
+    <input type="text" onkeyup="alert(`haz dejado de presionar una tecla dentro de la caja`)">
+    
+    <script src="JS/codigo.js"></script>
+</body>
+</html>
