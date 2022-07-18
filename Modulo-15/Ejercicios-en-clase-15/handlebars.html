@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars</title>
+</head>
+<body>
+    <!--Handlebars: motor de plantillas de js
+    nos permite in yectar valores de propiedad js en nuestro HTML y es un COMPILADOR
+    porque tiene una entrada (input), que luego compila (compile) y nos da una
+    salida o el resultado que deseamos tener-->
+    <div id="action"></div>
+    <script type="text/x-handlebars-template" id="index">
+        <h1>Hola, mi nombre es {{name}}</h1>
+    </script>
+    <!--CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" 
+    integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
+    <script type="text/javascript">
+        let template = document.getElementById('index').innerHTML;
+        let compile = Handlebars.compile(template);
+        let compiledHTML = compile({name: 'Luna'});
+        document.getElementById('action').innerHTML += compiledHTML;
+    </script>
+    <!--inner.HTML desventajas de sus usos
+    1) se reemplaza el contenido en todas las partes
+    2) es mucho mas lento porque es reanalizado nuestro documento HTML
+    3) no suministra validacion, de esta forma se puede dañar el documento
+    
+    -->
+</body>
+</html>

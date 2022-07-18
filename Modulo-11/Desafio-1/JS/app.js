@@ -53,7 +53,8 @@ resultado = valor1 && valor2; resultado = false
 
 valorA = true;
 valorB = true;
-resultado = valor1 && valor2; resultado = true*/
+resultado = valor1 && valor2; resultado = true
+*/
 
 /*el operador or (||) obtiene un resultado donde ambos valores no pueden ser verdaderos, ya que la consigna
 es que uno de ellos lo sea para obtener un resultado true, por ej
@@ -64,6 +65,24 @@ resultado = valor1 || valor2; resultado = true
 var valorA = false;
 var valorB = false;
 resultado = valor1 || valor2; resultado = false*/
+
+/*ej. Negacion
+var visible = true;
+alert(!visible);
+
+ej. AND
+var valor1 = true;
+var valor2 = false;
+
+var resultado = valor1 && valor2;   =true
+alert(resultado);
+
+ej. OR
+var value1 = true;
+var value2 = false;
+
+var result = value1 || value2;   =true
+alert(result);*/
 
 /*los operadores relacionales (<) (>) permiten realizar programas complejos y comparar datos,
 el resultado sera igual a los operadores logicos true y false
@@ -80,3 +99,20 @@ resultado = numero1 <= numero2; resultado = true, menor o igual que
 resultado = numero1 == numero2; resultado = true, igual en valor 
 resultado = numero1 != numero2; resultado = false, no es igual*/
 
+//FIN DE ANOTACIONES
+
+var costos_fijos = prompt('Ingrese el Costo Fijo');
+var precio_de_venta = prompt('Ingrese el Precio de Venta');
+var costos_variables = prompt('Ingrese el Costo Variable');
+
+var punto_de_equilibrio = costos_fijos / (precio_de_venta - costos_variables);
+
+document.write(punto_de_equilibrio)
+
+//alert('El punto de equilibrio es: ' + punto_de_equilibrio);
+
+
+//document.write('El costo fijo es: ' + costos_fijos);
+//document.write('El Precio de Venta es: ' + precio_de_venta);
+//document.write('El Costo Variable es: ' + costos_variables);
+//document.write('El punto de equilibrio es: ' + punto_de_equilibrio);
