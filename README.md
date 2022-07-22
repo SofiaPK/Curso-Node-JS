@@ -19,10 +19,18 @@ Acá voy a ir subiendo los **ejercicios** y **desafios** del curso dictado por [
 * viii Módulo 8: Flotado y trabajo con grillas.
   * Contiene: Consignas, Desafio-1 y Desafio-2.
 * ix Módulo 9: Position y Pseudo Clases.
-  * Contiene: ... 
+  * Contiene: Consignas, Ejercicios-en-clase, Desafio-1, Desafio-2 
 * x Módulo 10: Gradientes, Vinculación con Bootstrap y selectores avanzados.
-  * Contiene: ...
+  * Contiene: Consignas, Ejercicio-en-clase, Desafio-1, Desafio-2
 * xi Módulo 11: Introducción a la Programación en JS.
-  * Contiene: ...
+  * Contiene: Consignas, Desafio-1, Desafio-2
 * xii Módulo 12: Estructuras de control.
-  * Contiene: ...
+  * Contiene: Consignas, Ejercicio-clase-12, Desafio-1, Desafio-2
+* xiii Módulo 13: Bucles y Vectores.
+  * Contiene: Consignas, Ejercicio-clase-13, Desafio-1, Desafio-2
+* xiv Módulo 14: Introducción a Funciones.
+  * Contiene: Ejercicios-en-clase, Consignas, Desafio-1, Desafio-2
+* xv Módulo 15: Introducción a ECMAScript 6.
+  * Contiene: Ejercicio-en-clase-15, Consignas, Desafio-1, Desafio-2
+* xvi Módulo 16: JavaScript, el lenguaje de la web
+  * Consignas, Ejercicio-en-clase-16, Consignas, Desafio-1, Desafio-2

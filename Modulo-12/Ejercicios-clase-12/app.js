@@ -8,7 +8,7 @@
 //Operadores logicos:
 // !== Estrictamente distinto
 // && (y - and)
-// (o - or)
+// \\ (o - or)
 // ! (no)
 
 //let numero1 = 10;

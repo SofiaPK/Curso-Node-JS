@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios clase 17</title>
+
+    <style>
+        #contenedor{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        #hijo{
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+        }
+        #nieto{
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+        }
+    </style>
+
+</head>
+<body>
+    <!--EVENTOS
+    Son las formas que vamos a tener para controlar las acciones que los usuarios realizan en nuestra pagina.
+    Con el JS vamos a definir un comportamiento de la pagina o la aplciacion cuando se dispare/ejecute ese evento
+    Con JS le aplicamos una funcion a cada uno de los elementos, por ejemplo aplicarle al BUTTON <button>Click</button> que cuando el usuario lo seleccione, se dispare una alerta, o me dirija a un sitio especifico o haga determinada funcion.
+    Cuando se produce cada evento, JS ejecuta la funcion asociada
+    -->
+    <!--<button id="click">Enviar</button>-->
+   
+    
+    <!--  1) LISTENER/ESCUCHA
+        Ejemplo para armar un contador
+        <h1>Contador</h1>
+        <h3>
+            <span id="total">0</span>
+        </h3>
+        <button id="suma">+</button>
+        <button id="resta">-</button>
+        <br>
+        <button id="reset">Reset</button>
+    -->
+
+    <!--  2) ONCLICK
+        <button id="suma">SUMAR</button>
+
+        NO SE RECOMIENDA HACER ESTO: 
+        <input type="button" value="Click" onclick="alert('me hiciste click desde HTML')">
+    -->
+
+    <!--
+        EVENTO DEL MOUSE
+        <button id="btnMain">Click</button>
+
+        <div id="contenedor" style="background-color: rgb(255, 179, 255); width: fit-content;"> BOX1</div> 
+    -->
+
+    <!-- ONCHANGE
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre">
+        <label for="edad">edad</label>
+        <input type="number" id="edad">
+    -->
+
+    <!--SUBMIT
+        <form id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" >
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number">
+            <br>
+            <input type="submit">
+        </form>
+    -->
+
+    <!-- Event.target 
+        A modo de ejemplo, esto asi no
+        <h1 onclick='capturar(event)'>Hola Objetivo</h1>
+    -->
+
+    <!--Event.currentTarget
+    
+        onclick="handClick(event)" cada div va a disparar estos eventos
+    
+    <div id="contenedor" onclick="handClick(event)">
+        DIV Contenedor
+        <div id="hijo" onclick="handClick(event)">
+            DIV Hijo
+            <div id="nieto" onclick="handClick(event)">
+                DIV Nieto
+            </div>
+        </div>
+    </div>
+    -->
+
+    <script src="JS/codigo.js"></script>
+</body>
+</html>
