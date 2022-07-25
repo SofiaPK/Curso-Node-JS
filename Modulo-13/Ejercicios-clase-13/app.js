@@ -38,7 +38,7 @@
 
 // Tipos de Métodos para OBJETOS en JS
 //  1)
-//cRecibe un Objeto como entraday nos regresa un array (que lo crea) con todas las llaves (keys) de dicho objeto
+// Recibe un Objeto como entrada y nos regresa un array (que lo crea) con todas las llaves (keys) de dicho objeto
 //console.log(Object.keys(alumno))
 
 //  2)
