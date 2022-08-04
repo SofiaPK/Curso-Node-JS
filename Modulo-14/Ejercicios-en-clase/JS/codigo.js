@@ -18,7 +18,9 @@ console.log(sumar(5, 10));
 
 ---
 
-let sumar = function (a, b) {return a + b}
+let sumar = function (a, b) {
+    return a + b
+}
 console.log(sumar(10, 15))
 
 
@@ -47,7 +49,7 @@ console.log(15, 20); o sumar(15,20);
 */
 
 /*CONSIGNA:
-Realizar una unica funcion que tenga tres parametros (los dos primeros numeros y el etercero una operacion)
+Realizar una unica funcion que tenga tres parametros (los dos primeros numeros y el tercero una operacion)
 y realice las operaciones basicas de una calculadora (+, -, /, *) mostrandolas por consola.
 Cuando se inicializa la funcion se le pasan los tres argumentos
 
@@ -78,7 +80,7 @@ function calculadora (primerNumero, segundoNumero, operacion){
 }
 console.log(calculadora(5, 5, "+"));
 
-Ejemplo de un compañero:
+Ejemplo:
 const operacion = (a, b, c) => {
     switch (c) {
         case "+":
