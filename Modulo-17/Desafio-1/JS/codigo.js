@@ -19,3 +19,4 @@ alert(gastoConIva(numero))
 }                                                               OTRA FORMA DE HACERLO
 var numero = Number.parseInt(prompt('Ingrese un número'));
 alert(gastoConIva(numero))*/
+
