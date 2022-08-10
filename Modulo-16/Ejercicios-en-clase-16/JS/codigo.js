@@ -1,7 +1,7 @@
-//document.nodeType es de solo lectura y retorna el valor 
-//positivo/entero representado en el nodo
+/*document.nodeType es de solo lectura y retorna el valor 
+positivo/entero representado en el nodo
 
-/*ACCEDER A LOS NODOS DEL DOM
+ACCEDER A LOS NODOS DEL DOM
 1) document.getElementById("title");
 2) document.getElementsByClassName("item");
 3)document.getElementsByTagName("div");
