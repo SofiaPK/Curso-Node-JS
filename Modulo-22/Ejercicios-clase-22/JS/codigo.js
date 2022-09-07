@@ -1,8 +1,7 @@
 /*---REPASO 
 CALLBACK
-esuna forma de manejar el comportamiento asincrono
+es una forma de manejar el comportamiento asincrono
 estas funciones se comportan como un objeto
-
 
 let lista = 1;
 function agregarNum(CALLBACK) {

@@ -10,17 +10,17 @@ documento HTML document.body.append(img).
 
 async function mostrarAvatar() {
     // lee el archivo JSON
-    let resp = await fetch('/user.json');
+    let resp = await fetch('JS/user.json');
     let usuario = await resp.json();
   
     // leer el usuario de github
     let githubResp = await fetch(`https://api.github.com/users/${usuario.name}`);
     //console.log(githubResp)
-    let githubUser = await githubResp.json();
+    let githubUser = await githubResp.json(); //creamos el usuario
   
     // mostrar el avatar
     let img = document.createElement('img'); //Creo el elemento imagen
     img.src = githubUser.avatar_url; //forma de entrar a la propiedad
     document.body.append(img);
 }
-  mostrarAvatar(); //inicializo la funcion
+mostrarAvatar(); //inicializo la funcion

@@ -47,7 +47,7 @@ FORM
 const form = document.querySelector('#form');
 const nombre = document.querySelector('#nombre');
 const password = document.querySelector('#password');
-const errorElement = document.queryselector('#error');
+const errorElement = document.querySelector('#error');
 
 form.addEventListener('submit', (e) => {
     let mensaje = [];   //aca vamos a poner la validacion que le queremos dar al nombre y a la contraseña
@@ -126,7 +126,7 @@ let expresionReg = /abc+/g;
 let expresionReg = /abz?/g;
 
 {} coincide con n repeticiones
-+ coincide con uno o mas repeticiones. se indica un maximo(a la derecha)y un minimo (a la izquiera)
++ coincide con uno o mas repeticiones. se indica un maximo(a la derecha)y un minimo (a la izquierda)
 let expresionReg = /{}/g;
 let expresionReg = /7{3}//g; --> 1234(777)890777 solo toma tres 7
 let expresionReg = /(ana){2}/g;  entonces busca matchear si eso se repite

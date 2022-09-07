@@ -130,7 +130,7 @@ function validarFormulario (e) {
 /* 7)
 EVENT.target
 es una referencia al objeto en el cual se lanzó el evento 
-lo que hace es capturar todao el valor de la etiqueta
+lo que hace es capturar todo el valor de la etiqueta
 
 function capturar(event){
     let x = event.target;  //x variable, event.target es la funcion

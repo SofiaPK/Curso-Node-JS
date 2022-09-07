@@ -1,0 +1,31 @@
+body{
+    font-family: 'serif';
+    font-weight: 400;
+}
+input{
+    border: solid 1.5px #3ac976;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #42f29a;
+    font-weight: 300;
+}
+input:focus{
+    border: 2px solid #84faaf;
+    outline: none;
+}
+label{
+    color: #16b355;
+}
+button{
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(52, 148, 57);
+    background-color: rgb(255, 232, 232);
+}
+button:hover{
+    background-color: #fdc8c8;
+}

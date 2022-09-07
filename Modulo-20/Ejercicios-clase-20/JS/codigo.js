@@ -144,7 +144,7 @@ identificar por el nombre(urn), locacion (url) o ambas.
 PARAMETROS: para filtrar, ordenar, paginar o buscar informacion en un recurso se debe 
 hacer una consulta sobre la URI, utilizando los parametros HTTP en lugar de incluirlos en la misma.
 osea usar parametros de la misma forma en que los usamos en formularios HTML, y no que ellos 
-formen parte de la URI ?
+formen parte de la URI 
 
 METODOS:
 GET
