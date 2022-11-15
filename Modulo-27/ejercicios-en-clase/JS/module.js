@@ -1,34 +1,33 @@
 /*let miDominio = "midominio.com"
-console.log(miDominio)
-
-var miDomiiinio =  "midomiiinio.com"
-console.log(miDomiiinio)
+//console.log(miDominio)
 
 const myDomain = "mydomain.com"
 //console.log(myDomain)
+
 const myNumber = 1234
 const myArray = [1,2,3,4]
 const user = {
     nombre: 'María',
     lastName: 'Pérez'
 }
-console.log(myDomain, myNumber, myArray, user)
+//console.log(myDomain, myNumber, myArray, user)
 
 module.exports = {
     myDomain, user
 }
-//console.log(module)
+console.log(module)
 */
-const sumar = (a, b) => a+b;
-const restar = (a, b) => a-b;
-const dividir = (a, b) => a/b;
-const multiplicar = (a, b) => a*b;
 
-console.log(sumar(2,4))
+const suma = (a, b) => a+b;
+const resta = (a, b) => a-b;
+const divide = (a, b) => a/b;
+const multiplica = (a, b) => a*b;
 
-module.exports = [
-    sumar,
-    restar,
-    dividir,
-    multiplicar
-]
+//console.log(sumar(2,4))
+
+module.exports = {
+    suma,
+    resta,
+    divide,
+    multiplica
+}

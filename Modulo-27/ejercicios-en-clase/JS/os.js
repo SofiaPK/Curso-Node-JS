@@ -1,4 +1,4 @@
-const os = required('os');
+const os = require('os');
 //console.log(os);
 console.table({
     os: os.platform(),

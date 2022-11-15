@@ -11,7 +11,7 @@ va a pasar a la siguiente solicitud. Espera siempre a que ocurra el evento.
 ----NPM---- v. 8.18
 Ayuda a administrar los paquetes para Node
 
-----Diferencias principales de Node y la consola del navegador - cómo interactúa con el navegador ----
+----Diferencias principales de Node y la consola del navegador - cómo node interactúa con el navegador ----
 Con el navegador tenemos objetos globales que son window y document (propios del navegador). Con Node interactuamos 
 directamente con el sistema operativo.
 En la consola:
@@ -39,7 +39,7 @@ no permanecen estables.
 //para cancelar control + c
 /*
 ----OBJETOS GLOBALES NODE.JS----
-1) __dirname // sin el archivo
+1) __dirname // nos da la ruta donde ejecutamos el archivo
 console.log(__dirname) 
 
 2)console.log(__filename) // con el archivo
@@ -62,3 +62,6 @@ setTimeout(()=>{
     console.log('setTimeout despues de 5 segundos')
 }, 5000)
 */
+setTimeout(()=>{
+    console.log('setTimeout despues de 5 segundos')
+}, 5000)

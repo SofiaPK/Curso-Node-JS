@@ -1,0 +1,23 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "probando los colores del npm colors",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "npm",
+    "colors",
+    "proyect"
+  ],
+  "author": "sofi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

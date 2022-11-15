@@ -4,8 +4,8 @@ console.log('tercera tarea');
 setTimeout(()=>{
     console.log('cuarta tarea')
 }, 1500)*/
-/*
-const http = require ('http');
+
+const http = require('http');
 const server = http.createServer((req, res)=>{
     if(req.url === '/'){
         res.write('Home')
@@ -19,7 +19,7 @@ const server = http.createServer((req, res)=>{
         res.write('CONTACTO')
         return res.end()
     }
-    res.end(`not found error 484`)
+    res.end(`not found error 404`)
 })
-server.listen(3000) */
+server.listen(3000)
 console.log(`server on port 3000`)
