@@ -33,28 +33,39 @@ Acá voy a ir subiendo los **ejercicios** y **desafios** del curso dictado por [
 * Módulo 15: Introducción a ECMAScript 6.
   * Contiene: Ejercicio-en-clase-15, Consignas, Desafio-1, Desafio-2.
 * Módulo 16: JavaScript, el lenguaje de la web.
-  * Consignas, Ejercicio-en-clase-16, Desafio-1, Desafio-2.
+  * Contiene: Consignas, Ejercicio-en-clase-16, Desafio-1, Desafio-2.
 * Módulo 17: Modelo orientado a eventos.
-  *Ejercicio-clase-17, Desafio.
+  * Contiene: Ejercicio-clase-17, Desafio.
 * Módulo 18: Formularios y RegExp.
-  *Ejercicios-clase-18, , Desafio.
+  * Contiene: Ejercicios-clase-18, , Desafio.
 * Módulo 19: Un mundo sincrónico.
-  *Ejercicios-clase-19.
+  * Contiene: Ejercicios-clase-19.
 * Módulo 20: SPA y Rest.
-  *Ejercicios-clase-20.
+  * Contiene: Ejercicios-clase-20.
 * Módulo 21: AJAX Avanzado.
-  *Ejercicios-clase-21.
+  * Contiene: Ejercicios-clase-21.
 * Módulo 22: Promesas.
-  *Ejercicios-clase-22, Desafio.
+  * Contiene: Ejercicios-clase-22, Desafio.
 * Módulo 23: Paradigma de prototipos.
-  *Ejercicios-clase-23.
+  * Contiene: Ejercicios-clase-23.
 * Módulo 24: POO Avanzado.
-  *Ejercicios-clase-24 y dentro un Ejercicio.
+  * Contiene: Ejercicios-clase-24 y dentro un Ejercicio.
 * Módulo 25: Patrones de diseño.
-  *Ejercicios-clase-25.
+  * Contiene: Ejercicios-clase-25.
 * Módulo 26: Persistencia y Optimización.
-  *Clase-26 y dentro una actividad.
+  * Contiene: Clase-26 y dentro una actividad.
 * Módulo 27: Nuevas tecnologías: NodeJS.
-  *Ejercicios-en-clase.
+  * Contiene: Ejercicios-en-clase.
 * Módulo 28: Motores NoSQL.
-  *Ejercicios-clase-28, data y n-p-m.
+  * Contiene: Ejercicios-clase-28, data y n-p-m.
+* Módulo 29: NodeJS & NPM.
+  * Contiene: Ejercicios-clase.
+* Módulo 30: Routing.
+  * Contiene: Ejercicios-clase.
+* Módulo 31: Routing.
+  * Contiene: Ejercicios-clase.
+* Módulo 32: MongoDB.
+  * Contiene: Ejercicios-clase.
+* Socket.io
+* Cookies & Json Web Token
+* Scraping
